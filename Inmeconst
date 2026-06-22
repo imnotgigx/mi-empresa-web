@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Empresa de Ingeniería y Construcción</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <header>
+    <h1>Ingeniería & Construcción</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#sobre">Sobre nosotros</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h2>Soluciones en ingeniería, mecánica y construcción</h2>
+    <p>Calidad, seguridad y eficiencia en cada proyecto.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Diseño y construcción de estructuras</li>
+      <li>Mantenimiento mecánico industrial</li>
+      <li>Supervisión de obras</li>
+      <li>Consultoría técnica</li>
+    </ul>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre nosotros</h2>
+    <p>
+     En INMECONST SRL nos especializamos en soluciones de construcción y fabricación metalmecánica, desarrollando estructuras metálicas, montajes industriales y piezas fabricadas a medida para distintos tipos de proyectos. Trabajamos integrando funcionalidad, precisión técnica y procesos especializados que nos permiten ofrecer resultados duraderos, eficientes y adaptados a las necesidades de cada cliente.
+
+Nos enfocamos en el diseño, manufactura e instalación de elementos metálicos e industriales, utilizando materiales de alta calidad como acero inoxidable y sistemas de fabricación especializados. Nuestro objetivo es crear soluciones funcionales y personalizadas para espacios comerciales e industriales, manteniendo altos estándares de calidad, resistencia y detalle en cada proyecto.
+    </p>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <p>Aquí puedes mostrar tus proyectos más importantes.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: contacto@tuempresa.com</p>
+    <p>Tel: +1 809-000-0000</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Ingeniería & Construcción. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #0f172a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.hero {
+  background: #1e293b;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  color: #0f172a;
+}
+
+footer {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
